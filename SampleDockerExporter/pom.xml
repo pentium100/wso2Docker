@@ -11,8 +11,8 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>wso2.sampleHelloWorld.HelloWorldCompositeApplication</groupId>
-      <artifactId>HelloWorldCompositeApplication</artifactId>
+      <groupId>com.example.Sample</groupId>
+      <artifactId>SampleCompositeApplication</artifactId>
       <version>1.0.0</version>
       <type>car</type>
     </dependency>
@@ -104,7 +104,7 @@
               <goal>push</goal>
             </goals>
             <configuration>
-              <repository>sample/sample</repository>
+              <repository>hub.docker.com/sample</repository>
               <tag>1.0.0</tag>
             </configuration>
           </execution>

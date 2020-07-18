@@ -8,6 +8,11 @@
   <packaging>pom</packaging>
   <name>MavenParentProject</name>
   <description>MavenParentProject</description>
+  <modules>
+  <module>Sample</module>
+  <module>SampleCompositeApplication</module>
+  <module>SampleDockerExporter</module>
+  </modules>
   <build>
     <plugins>
       <plugin>
