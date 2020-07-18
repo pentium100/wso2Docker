@@ -9,9 +9,10 @@
   <name>MavenParentProject</name>
   <description>MavenParentProject</description>
   <modules>
-  <module>Sample</module>
-  <module>SampleCompositeApplication</module>
-  <module>SampleDockerExporter</module>
+    
+    <module>SampleDockerExporter</module>
+    <module>Sample2</module>
+    <module>SampleCompositeApplication</module>
   </modules>
   <build>
     <plugins>

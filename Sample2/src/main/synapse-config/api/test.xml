@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proxy name="HelloWorld2" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
-    <target>
+<api context="/test" name="test" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
         <inSequence>
             <payloadFactory media-type="json">
                 <format>{"Hello":"World"}</format>
@@ -10,5 +10,5 @@
         </inSequence>
         <outSequence/>
         <faultSequence/>
-    </target>
-</proxy>
+    </resource>
+</api>
