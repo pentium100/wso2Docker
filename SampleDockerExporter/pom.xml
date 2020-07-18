@@ -106,7 +106,6 @@
           <execution>
             <goals>
               <goal>build</goal>
-              <goal>push</goal>
             </goals>
             <configuration>
               <repository>hub.docker.com/sample</repository>
