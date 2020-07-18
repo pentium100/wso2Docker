@@ -106,7 +106,7 @@
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>synapse-unit-test-maven-plugin</artifactId>
-        <version>5.2.17</version>
+        <version>5.2.28</version>
         <executions>
           <execution>
             <id>synapse-unit-test</id>
